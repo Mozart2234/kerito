@@ -25,7 +25,7 @@ group :development, :test do
   gem 'fasterer', '~> 0.6.0'
   gem 'rails_best_practices', '~> 1.19', '>= 1.19.4'
   gem 'reek', '~> 5.4'
-  gem 'rubocop-airbnb', '~> 2.0'
+  gem 'rubocop', '~> 0.75.0'
   gem 'rubycritic', '~> 4.1'
 
   # Config Rails
