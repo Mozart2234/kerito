@@ -33,10 +33,6 @@ group :development, :test do
   gem 'binding_of_caller', '~> 0.8.0'
   gem 'byebug', '~> 10.0', '>= 10.0.2', platforms: [:mri, :mingw, :x64_mingw]
   gem 'pry-rails', '~> 0.3.9'
-  gem 'rails-erd', '~> 1.6'
-  gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'tzinfo-data', platforms: %i(mingw mswin x64_mingw)
 end
 
 group :development do
