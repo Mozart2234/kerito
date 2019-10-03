@@ -15,7 +15,7 @@ RUN apt-get update -yqq && \
     nodejs \
     yarn
 
-COPY Gemfile* /usr/src/app
+COPY Gemfile* /usr/src/app/
 WORKDIR /usr/src/app
 
 ENV BUNDLE_PATH /gems
