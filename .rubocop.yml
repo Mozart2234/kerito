@@ -1,0 +1,9 @@
+require:
+  - rubocop-airbnb
+Rails:
+  Enabled: true
+FrozenStringLiteralComment:
+  Enabled: false
+Layout/DotPosition:
+  Enabled: true
+  EnforcedStyle: leading
