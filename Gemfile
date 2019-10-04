@@ -30,6 +30,7 @@ group :development, :test do
   gem 'rails_best_practices', '~> 1.19', '>= 1.19.4'
   gem 'reek', '~> 5.4'
   gem 'rubocop', '~> 0.75.0'
+  gem 'rubocop-rails', '~> 2.3', '>= 2.3.2'
   gem 'rubycritic', '~> 4.1'
 
   # Suite test

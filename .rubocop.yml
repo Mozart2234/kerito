@@ -1,8 +1,7 @@
 inherit_from:
   - https://shopify.github.io/ruby-style-guide/rubocop.yml
-Rails:
-  Enabled: true
-FrozenStringLiteralComment:
+require: rubocop-rails
+Style/FrozenStringLiteralComment:
   Enabled: false
 Layout/DotPosition:
   Enabled: true
