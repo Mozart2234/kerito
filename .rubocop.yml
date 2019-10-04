@@ -1,6 +1,14 @@
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'spec/**/*'
+    - 'bin/**/*'
+    - 'config.ru'
+require: rubocop-rails
 inherit_from:
   - https://shopify.github.io/ruby-style-guide/rubocop.yml
-require: rubocop-rails
 Style/FrozenStringLiteralComment:
   Enabled: false
 Layout/DotPosition:

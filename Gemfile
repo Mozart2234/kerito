@@ -22,7 +22,6 @@ gem 'pundit', '~> 2.0'
 gem 'simple_command', '~> 0.0.9'
 
 group :development, :test do
-
   # Code Analisis
   gem 'brakeman', '~> 4.6', '>= 4.6.1'
   gem 'bundler-audit', '~> 0.6.1'
@@ -50,7 +49,6 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'overcommit', '~> 0.49.1'
 end
 
 group :test do
