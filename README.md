@@ -1,24 +1,41 @@
-# README
+# KERITO v0.1
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+## System dependencies
 
-* System dependencies
+* Ruby version:
+  2.6
+* Docker
+* Docker-compose
 
-* Configuration
+## Configuration
 
-* Database creation
+* We need add enviroment variables in .env folder, then create a new folder for development, finally add two files.
 
-* Database initialization
+  For .env/development/database
 
-* How to run the test suite
+  ```shell
+  POSTGRES_USER=userdb
+  POSTGRES_PASSWORD=some-password
+  POSTGRES_DB=kerito_development
+  ```
 
-* Services (job queues, cache servers, search engines, etc.)
+  For .env/development/web
 
-* Deployment instructions
+  ```shell
+  POSTGRES_HOST=db #Its important because, 'db' is used with docker-compose.yml
+  ```
 
-* ...
+## Database creation
+
+## Database initialization
+
+## How to run the test suite
+
+## Services (job queues, cache servers, search engines, etc.)
+
+## Deployment instructions
