@@ -3,7 +3,7 @@
 ## System dependencies
 
 * Ruby version:
-  2.6
+  2.6.4
 * Docker
 * Docker-compose
 
