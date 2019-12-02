@@ -1,4 +1,4 @@
-FROM ruby:2.6
+FROM ruby:2.6.5
 LABEL maintenaner="alexeim763@gmail.com"
 
 RUN apt-get update -yqq && \
