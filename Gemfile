@@ -33,7 +33,6 @@ group :development, :test do
   gem 'rubycritic', '~> 4.1'
 
   # Suite test
-  gem 'cypress-on-rails', '~> 1.4', '>= 1.4.2'
   gem 'factory_bot_rails', '~> 5.0', '>= 5.0.2'
   gem 'faker', '~> 1.9', '>= 1.9.3'
 
