@@ -21,6 +21,9 @@ gem 'draper', '~> 3.0', '>= 3.0.1'
 gem 'pundit', '~> 2.0'
 gem 'simple_command', '~> 0.0.9'
 
+# Devise
+gem 'devise', '~> 4.7', '>= 4.7.1'
+
 group :development, :test do
   # Code Analisis
   gem 'brakeman', '~> 4.6', '>= 4.6.1'

@@ -13,7 +13,8 @@ RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources
 RUN apt-get update -yqq && \
     apt-get install -yqq --no-install-recommends \
     nodejs \
-    yarn
+    yarn \
+    vim
 
 COPY Gemfile* /usr/src/app/
 WORKDIR /usr/src/app

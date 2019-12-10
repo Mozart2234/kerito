@@ -20,8 +20,7 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-<<<<<<< HEAD
 
 /.env/*
-=======
->>>>>>> master
+
+/config/credentials/development.key
