@@ -21,8 +21,10 @@ gem 'draper', '~> 3.0', '>= 3.0.1'
 gem 'pundit', '~> 2.0'
 gem 'simple_command', '~> 0.0.9'
 
-# Devise
+# Auth
 gem 'devise', '~> 4.7', '>= 4.7.1'
+gem 'doorkeeper', '~> 5.2', '>= 5.2.2'
+
 
 group :development, :test do
   # Code Analisis
